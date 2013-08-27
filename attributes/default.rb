@@ -141,6 +141,7 @@ default['apache']['ext_status'] = false
 
 #mod_fcgid locations
 default['apache']['mod_fcgid_download_location'] = "http://superb-east.dl.sourceforge.net/sourceforge/mod-fcgid/mod_fcgid.2.2.tgz"
+default['apache']['libopkele_file_location'] = "http://kin.klever.net/dist/libopkele-2.0.4.tar.gz"
 # Prefork Attributes
 default['apache']['prefork']['startservers'] = 16
 default['apache']['prefork']['minspareservers'] = 16
